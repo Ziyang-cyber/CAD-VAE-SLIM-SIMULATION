@@ -1,0 +1,8 @@
+
+# Ignore logs and Python caches.
+log/
+*.log
+*.err
+*.out
+__pycache__/
+*.py[cod]
