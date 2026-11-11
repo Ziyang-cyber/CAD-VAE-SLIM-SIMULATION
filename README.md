@@ -17,7 +17,7 @@ conda activate vae
 | `run_simulation_cmi.sh` | Train with different CMI weights and selected CLS values. |
 | `run_simulation_lri.sh` | Train with different LRI weights. |
 | `run_simulation_tc.sh` | Train with different TC weights. |
-| `run_plt_cmi.sh` | Plot AUC versus CMI, one figure per CLS pair. |
+| `run_plt_cmi.sh` | Plot AUC versus CMI, one figure per CLS. |
 | `run_plt_lri.sh` | Plot AUC versus LRI. |
 | `run_plt_tc.sh` | Plot AUC versus TC. |
 
