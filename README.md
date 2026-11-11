@@ -17,7 +17,7 @@ conda activate vae
 | `run_simulation_cmi.sh` | Train with different CMI weights and selected CLS values. |
 | `run_simulation_lri.sh` | Train with different LRI weights. |
 | `run_simulation_tc.sh` | Train with different TC weights. |
-| `run_plt_cmi.sh` | Plot AUC versus CMI, one figure per beta/CLS pair. |
+| `run_plt_cmi.sh` | Plot AUC versus CMI, one figure per CLS pair. |
 | `run_plt_lri.sh` | Plot AUC versus LRI. |
 | `run_plt_tc.sh` | Plot AUC versus TC. |
 
@@ -53,4 +53,4 @@ Run commands from the `code` directory.
 Training reads genotypes from `neutral_snps/combined_neutral_and_qtl_dosage.npy`
 and labels from `individuals.tsv`: `phenotype_binary` is Y, and `population` is S.
 
-Results are saved to the configured results directory; AUC figures are saved under `auc_plots/`.
+Results are saved to the configured results directory, AUC figures are saved under `auc_plots/`.
